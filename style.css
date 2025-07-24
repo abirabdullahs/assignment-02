@@ -1,0 +1,136 @@
+body{
+    width: 1440px;
+    background-color: #f4f7fc;
+}
+
+
+.section-1, .section-2,.section-3.section-4.section-5.section-6.section-8{
+    /* padding: 60px 20px; */
+    margin: 0px 150px 0px 150px;
+    /* text-align: center; */
+    /* font-family: 'Segoe UI', sans-serif; */
+}
+
+
+/* .section-1{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 250px; */
+    height: 71px;
+    align-items: center;
+    margin: 30px 0px 60px 0px;
+    font-size: 1.5em;
+}
+
+.navbar ul{
+    list-style-type: None;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li{
+    color:#8987A1;
+}
+
+.navbar .selected{
+    color: black;
+    font-weight: bold;
+}
+
+.navbar img{
+    width: 135px;
+    height: 82px;
+}
+
+.header{
+    height: 355px;
+    margin: 60px 0px 115px 0px ;
+    display: flex;
+    align-items: center;
+}
+
+.header h1{
+    font-size: 4em;
+}
+
+.header h1 .special{
+    color: #E95A08;
+}
+
+.header p{
+    font-size: 2em;
+    color: #8987A1;
+}
+
+.item_section{
+    margin: 60px 150px 110px 150px;
+    text-align: center;
+}
+
+.item_section .details h3{
+    font-size: 3em;
+}
+
+.item_section .special{
+    color: #E95A08;
+}
+
+.item_section p{
+    font-size: 2em;
+    color: #8987A1;
+}
+
+.item_section .items{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 5px;
+}
+
+.item_section .items div{
+    margin-bottom: 50px;
+    width: 270px;
+    height: 485px;
+}
+
+.item_section .items div p,h5,button{
+    margin: 10px 0px;
+}
+
+.item_section .items div img{
+    width: 100%;
+    text-align: center;
+    height: 323px;
+}
+
+.item_section .items div p{
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
+
+.item_section .items div h5{
+    font-size: 2em;
+}
+
+.item_section .items div button{
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #E95A08;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 270px;
+}
+
+.item_section .items div button:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    /* color: #000000; */
+    background-color: #481b02;
+}
