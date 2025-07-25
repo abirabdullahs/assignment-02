@@ -161,33 +161,20 @@ button {
 .item_section .items div button:hover {
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
-    /* color: #000000; */
     background-color: #481b02;
 }
 
 .badge-section {
     position: relative;
-    /* display: flex; */
-    /* justify-content: space-between;
-   */
-
-    /* align-items: center; */
-    /* border: 2px solid #0099ff; */
-    /* padding: 0px 0px; */
-    /* margin: 50px 150px 50px 150px; */
 }
 
 .badge {
     position: absolute;
     top: -143px;
-    /* Adjust depending on your layout */
     left: 50%;
     transform: translateX(-70%);
     width: 286px;
     filter: drop-shadow(0px 0px 5px #000000);
-    /* You can change it, original is 540x540 */
-    /* height: 540px; */
-    /* z-index:1; */
 }
 
 
@@ -581,7 +568,3 @@ footer .icon img{
     padding-bottom: 20px;
   }
 }
-
-
- 
- 
