@@ -74,27 +74,32 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
 }
 
 .item_section .details{
-    display: flex;
-    flex-direction: column;
+  max-width: 1140px;
+    display: block;
+    /* flex-direction: column; */
     align-items: center;
     text-align: center;
     width: 100%;
     margin: auto;
+    padding: 0;
 }
 
 .item_section .details h3,
 .item_section .details p {
     text-align: center;
+    padding: 0;
 }
 
 .item_section .details p {
     width: 100%;
     max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
 
 .item_section h3 {
