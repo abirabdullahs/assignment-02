@@ -82,6 +82,7 @@ body {
     align-items: center;
     text-align: center;
     width: 100%;
+    margin: auto;
 }
 
 .item_section .details h3,
@@ -183,6 +184,7 @@ button {
     left: 50%;
     transform: translateX(-70%);
     width: 286px;
+    filter: drop-shadow(0px 0px 5px #000000);
     /* You can change it, original is 540x540 */
     /* height: 540px; */
     /* z-index:1; */
@@ -575,6 +577,8 @@ footer .icon img{
 
   footer{
     flex-direction: column;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
   }
 }
 
