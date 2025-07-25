@@ -416,7 +416,7 @@ footer .icon img{
 @media screen and (max-width: 576px) {
   body {
     max-width: 100%;
-    padding: 0 10px;
+    padding: 0 20px;
   }
   .section-1,
   .section-2,
@@ -450,6 +450,10 @@ footer .icon img{
 
   .header h1{
     font-size: 2.8em;
+  }
+
+  .item_section{
+    margin-left: 5px;
   }
 
   .item_section .items{
