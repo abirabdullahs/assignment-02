@@ -3,6 +3,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   background-color: #f4f7fc;
+  padding-left: 10px;
 }
 
 .section-1,
@@ -575,5 +576,9 @@ footer .icon img{
     flex-direction: column;
     margin-bottom: 20px;
     padding-bottom: 20px;
+  }
+
+  .section-8{
+    margin-bottom: 20px;
   }
 }
